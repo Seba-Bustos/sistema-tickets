@@ -1,36 +1,40 @@
 <!DOCTYPE html>
-<html">
+<html>
 <head>
     <title>Formulario</title>
+    <meta charset="UTF-8">
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
+      <h1>Contactanos</h1>
         <nav>
           <ul>
-            <li><a href="index.html">Inicio</a></li>
+            <li><a href="home.html">Inicio</a></li>
           </ul>
         </nav>
-      </header>
-    <div class="form-content">
-        <h2>Enviar su formulario</h2>
-        <form action="https://formsubmit.co/listamasquecomputines@gmail.com" method="POST">
-            <label for="name">Nombre</label>
-            <input cols="50" rows="10" type="text" name="name" id="name">
+    </header>
+    <main>
+        <div class="container">
+            <section id="form-content">
+                <h2>Enviar su formulario</h2>
+                <form action="https://formsubmit.co/listamasquecomputines@gmail.com" method="POST">
+                    <label for="name">Nombre</label>
+                    <input type="text" name="name" id="name" required>
 
-            <label for="email">Correo electronico</label>
-            <input cols="50" rows="10" type="email" name="email" id="email">
+                    <label for="email">Correo electrónico</label>
+                    <input type="email" name="email" id="email" required>
 
-            <label for="subject">Asunto</label>
-            <input cols="50" rows="10" type="text" name="subject" id="subject">
+                    <label for="subject">Asunto</label>
+                    <input type="text" name="subject" id="subject" required>
 
-            <label for="name">Comentario</label>
-            <textarea cols="30" rows="5" name="coments" id="coments" ></textarea>
+                    <label for="comments">Comentario</label>
+                    <textarea name="comments" id="comments" required></textarea>
 
-            <input cols="30" rows="5" class="btn" type="submit" value="Enviar">
-        </form>
-    </div>
-
-
+                    <input class="btn" type="submit" value="Enviar">
+                </form>
+            </section>
+        </div>
+    </main>
 </body>
 </html>
