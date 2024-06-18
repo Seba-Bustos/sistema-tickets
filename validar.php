@@ -4,9 +4,9 @@ session_start(); // Inicia la sesión
 if ($_SERVER["REQUEST_METHOD"] == "GET") {
     // Datos de conexión a la base de datos
     $servername = "db-2024.mysql.database.azure.com";
-    $db_username = "jim";
-    $db_password = "2839064Void";
-    $dbname = "db-ticket";
+    $db_username = "pap";
+    $db_password = "seba123+";
+    $dbname = "db-tickets";
 
     // Crear conexión
     $conn = new mysqli($servername, $db_username, $db_password, $dbname);

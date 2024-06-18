@@ -9,9 +9,9 @@ if (!isset($_SESSION['username'])) {
 
 // Datos de conexión a la base de datos
 $servername = "db-2024.mysql.database.azure.com";
-$username = "jim";
-$password = "2839064Void";
-$dbname = "db-ticket";
+$username = "pap";
+$password = "seba123+";
+$dbname = "db-tickets";
 
 // Crear conexión
 $conn = new mysqli($servername, $username, $password, $dbname);
