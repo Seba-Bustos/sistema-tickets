@@ -40,7 +40,7 @@ function enviarCorreo($destinatario, $asunto, $mensaje) {
 }
 
 // Datos de conexión a la base de datos
-$servername = "db-2024.mysql.database.azure.com"; //cambiar ruta
+$servername = "db-tickets.mysql.database.azure.com"; //cambiar ruta
 $username = "pap";
 $password = "seba123+";
 $dbname = "db-tickets";

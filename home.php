@@ -8,7 +8,7 @@ if (!isset($_SESSION['username'])) {
 }
 
 // Datos de conexión a la base de datos
-$servername = "db-2024.mysql.database.azure.com";
+$servername = "db-tickets.mysql.database.azure.com";
 $username = "pap";
 $password = "seba123+";
 $dbname = "db-tickets";

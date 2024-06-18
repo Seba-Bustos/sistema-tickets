@@ -32,7 +32,7 @@ $errorRut = "";
 // Verificar si el formulario ha sido enviado
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     // Datos de conexión a la base de datos
-    $servername = "db-2024.mysql.database.azure.com"; //cambiar ruta
+    $servername = "db-tickets.mysql.database.azure.com"; //cambiar ruta
     $db_username = "pap";
     $db_password = "seba123+";
     $dbname = "db-tickets";

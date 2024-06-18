@@ -3,7 +3,7 @@ session_start(); // Inicia la sesión
 
 if ($_SERVER["REQUEST_METHOD"] == "GET") {
     // Datos de conexión a la base de datos
-    $servername = "db-2024.mysql.database.azure.com";
+    $servername = "db-tickets.mysql.database.azure.com";
     $db_username = "pap";
     $db_password = "seba123+";
     $dbname = "db-tickets";
