@@ -54,10 +54,10 @@ function enviarCorreo($destinatario, $asunto, $mensaje) {
 // Verificar si se ha enviado el formulario
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     // Datos de conexión a la base de datos
-    $servername = "db-2024.mysql.database.azure.com";
-    $username = "jim";
-    $password = "2839064Void";
-    $dbname = "db-ticket";
+    $servername = "db-2024.mysql.database.azure.com"; // cambiar ruta
+    $username = "pap";
+    $password = "seba123+";
+    $dbname = "db-tickets";
 
     // Crear conexión
     $conn = new mysqli($servername, $username, $password, $dbname);
